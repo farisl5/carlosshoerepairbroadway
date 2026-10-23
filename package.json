@@ -1,0 +1,27 @@
+{
+  "name": "carlosshoerepairbroadway",
+  "version": "1.0.0",
+  "description": "Carlos Shoe Repair neighborhood business website",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farisl5/carlosshoerepairbroadway.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/farisl5/carlosshoerepairbroadway/issues"
+  },
+  "homepage": "https://github.com/farisl5/carlosshoerepairbroadway#readme",
+  "devDependencies": {
+    "vite": "^8.3.5"
+  },
+  "private": true
+}
