@@ -35,9 +35,9 @@ The hero image is an AI-generated illustrative workshop photograph, not a photog
 ## Deploy to GitHub Pages
 
 1. Commit and push the project files to the `main` branch of `farisl5/carlosshoerepairbroadway`.
-2. In GitHub, open **Settings → Pages → Build and deployment → Source** and select **GitHub Actions**.
-3. The included `.github/workflows/deploy.yml` installs locked dependencies, runs tests, builds, and deploys automatically on pushes to `main`. You can also run **Deploy to GitHub Pages** manually from the Actions tab.
-4. After the workflow succeeds, GitHub Pages will display the published URL, normally `https://farisl5.github.io/carlosshoerepairbroadway/`.
+2. In GitHub, open **Settings → Pages → Build and deployment → Source** and select **Deploy from a branch**, choose **gh-pages**, select **/ (root)**, and click **Save**.
+3. The included `.github/workflows/deploy.yml` installs locked dependencies, runs tests, builds, and publishes the production files to `gh-pages` on pushes to `main`. GitHub Pages serves that branch. You can also run **Deploy to GitHub Pages** manually from the Actions tab.
+4. After the workflow and branch deployment succeed, GitHub Pages will display the published URL, normally `https://farisl5.github.io/carlosshoerepairbroadway/`.
 
 Vite uses a relative base (`./`) so generated assets work both under a repository subpath and at a custom-domain root. The site uses section anchors, so it needs no server routing rules. To use a custom domain, configure it in repository Pages settings and set the DNS records GitHub specifies. Add your final canonical URL and absolute social-sharing image metadata in `index.html` once the domain is known.
 
